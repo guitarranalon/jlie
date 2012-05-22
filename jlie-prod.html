@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Lite Image Editor</title>
+	<script src="js/jquery1.7.2.js"></script>
+	<script src="js/prod/caman.js"></script>		
+	<script src="js/prod/histogram.min.js"></script>		
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/prod/filterChain.min.js"></script>
+	<script src="js/prod/editor.min.js"></script>
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css" />	
+	<link href="css/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />	
+	<link href="css/themes/ui-lightness/jquery.ui.all.css" rel="stylesheet" type="text/css" />	
+	</head>
+	<body>
+		<section id="menu">
+			<ul>
+				<li><a href="#" title="Save the image" id="save" class="action">Save</a></li>
+				<li><a href="#" title="Reset" id="reset" class="action">Reset</a></li>
+			</ul>
+		</section>
+		<canvas id="photo"></canvas>
+		
+		<section id="histControls">
+			<canvas id="hist-canvas" width="230" height="100"></canvas>
+			<div id="controls">
+			
+				<h2>Exposure</h2>
+				<div id="expo" class="slider">
+				<span class="parameter">0</span></div>			
+			
+				<h2>Brightness</h2>
+				<div id="brightness" class="slider">
+				<span class="parameter">0</span></div>
+			
+				<h2>Contrast</h2>
+				<div id="contrast" class="slider">
+				<span class="parameter">0</span></div>
+				
+				<h2>Vibrance</h2>
+				<div id="vibrance" class="slider">
+				<span class="parameter">0</span></div>
+				
+				<h2>Saturation</h2>
+				<div id="saturation" class="slider">
+				<span class="parameter">0</span></div>
+
+				<h2>Sharpen</h2>
+				<div id="sharpen" class="slider">
+				<span class="parameter">0</span></div>
+			</div>
+		</section>
+	</body>
+</html>
