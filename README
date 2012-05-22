@@ -1,0 +1,9 @@
+Javascript Lite Image Editor
+============================
+
+This is a extremely simple image editor based on Caman.js.
+I plan to add more features included on Caman (which is no difficult, I know) and, perhaps some new ones.
+For the histogram I've used parts of this code: http://www.robodesign.ro/coding/svg-or-canvas/histogram.html
+Some jQuery and jQuery UI is also needed.
+
+You may wonder if I've done anything :) Yes! Even more than put everything together (which was not trivial): there is a kind of chain of responsibility for the filters (it's something ;) ).
